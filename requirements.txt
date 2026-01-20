@@ -1,0 +1,5 @@
+Django
+
+# Add any other necessary dependencies here, e.g.,
+# djangorestframework
+# psycopg2-binary
