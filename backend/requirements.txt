@@ -1,0 +1,9 @@
+Django==4.1.7
+djangorestframework==3.14.0
+djangorestframework-jwt==2.4.0
+google-auth==2.13.0
+google-auth-oauthlib==0.4.6
+scikit-learn==1.1.3
+pandas==1.5.3
+numpy==1.24.0
+psycopg2-binary==2.9.5
