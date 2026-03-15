@@ -74,12 +74,12 @@ app.get('/health', (req, res) => {
 // Import routes (uncomment when routes are created)
 // import authRoutes from './routes/auth.js';
 // import userRoutes from './routes/users.js';
-// import nutritionRoutes from './routes/nutrition.js';
+import nutritionRoutes from './routes/nutrition.js';
 
 // Mount routes
 // app.use('/api/auth', authRoutes);
 // app.use('/api/users', userRoutes);
-// app.use('/api/nutrition', nutritionRoutes);
+app.use('/api/nutrition', nutritionRoutes);
 
 // ============================================
 // 404 Not Found Handler
